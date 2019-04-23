@@ -1,12 +1,14 @@
-NAME ?= kernel-flasher
+NAME ?= Alicization
 
-VERSION ?= 6.0
+VERSION ?= 1.0
 
 DATE := $(shell date +'%Y%m%d-%H%M')
 
-ZIP := $(NAME)-$(VERSION)-$(DATE).zip
+DEVICE := Rendang
 
-EXCLUDE := Makefile README.md *.git* "$(NAME)-"*.zip*
+ZIP := $(NAME)-$(DEVICE)-$(VERSION)-$(DATE).zip
+
+EXCLUDE := Makefile README.md *.git* "$(NAME)-"*.zip* *.zip
 
 all: $(ZIP)
 

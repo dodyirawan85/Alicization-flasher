@@ -60,11 +60,20 @@ umount() {
 	/sbin/busybox umount "$1"
 }
 
-print "#######################################"
-print "#           kernel flasher            #"
-print "#      by jcadduono, version 6.0      #"
-print "#   add your own intro message here!  #"
-print "#######################################"
+print "##################################################"
+print "#              Alicization flasher               #"
+print "#        Script by jcadduono, version 6.0        #"
+print "#         Kernel Compiled By Dody Irawan         #"
+print "#               Thanks To All Devs               #"
+print "##################################################"
+print "##################################################"
+print "'     _    _ _      _          _   _             '"
+print "'    / \  | (_) ___(_)______ _| |_(_) ___  _ __  '"
+print "'   / _ \ | | |/ __| |_  / _  | __| |/ _ \|  _  \'"
+print "'  / ___ \| | | (__| |/ / (_| | |_| | (_) | | | |'"
+print "' /_/   \_\_|_|\___|_/___\____|\__|_|\___/|_| |_|'"
+print "##################################################"
+
 
 # Unpack the installer
 [ "$zip" ] && {
